@@ -14,12 +14,11 @@ struct ContentView: View {
     @State private var showResults: Bool = false // Show results
     @State private var currencyIndex: Int = 0 // current currency index
     
-    private let currencies = ["USD", "EUR", "INR", "JPY"] // Currencies Array
+    private let currencies = ["USD", "EUR", "INR"] // Currencies Array
     private let currencySymbols: [String: String] = [
         "USD": "$",
         "EUR": "€",
-        "INR": "₹",
-        "JPY": "¥"
+        "INR": "₹"
     ] // Currencies Symbols dictionary
     
     
